@@ -8,6 +8,7 @@ import Contact from "./pages/Contact";
 import About from "./pages/About";
 import {Routes, Route} from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 const App = () => {
   return <div className="mx-4 sm:mx-[10%]">
     <Navbar />
@@ -22,6 +23,7 @@ const App = () => {
       <Route path='/contact' element={<Contact />}/>
       <Route path='/about' element={<About />}/>
     </Routes>
+    <Footer />
   </div>;
 };
 
