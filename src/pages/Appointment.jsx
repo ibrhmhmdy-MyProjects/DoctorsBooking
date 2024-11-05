@@ -1,6 +1,6 @@
 
-const Appoinment = () => {
-  return <div>Appoinment</div>;
+const Appointment = () => {
+  return <div>Appointment</div>;
 };
 
-export default Appoinment;
+export default Appointment;

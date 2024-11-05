@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { SectionHeader } from "./SectionHeader";
-import {SpecialitiesMenu} from "../Data/SpecialitiesMenu";
+import {SpecialitiesMenu} from "../assets/data/specialities";
 const Specialities = () => {
   return <div id="speciality" className="flex flex-col items-center gap-4 py-16 text-gray-800">
     <SectionHeader title="Find by Speciality " subTitle="Simply browse through our extensive list of trusted doctors, schedule your appointment hassle-free."/>

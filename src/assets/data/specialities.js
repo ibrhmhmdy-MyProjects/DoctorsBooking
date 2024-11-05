@@ -1,9 +1,9 @@
-import Dermatologist from '../assets/Specialities/Dermatologist.svg'
-import Gastroenterologist from '../assets/Specialities/Gastroenterologist.svg'
-import General_physician from '../assets/Specialities/General_physician.svg'
-import Gynecologist from '../assets/Specialities/Gynecologist.svg'
-import Neurologist from '../assets/Specialities/Neurologist.svg'
-import Pediatricians from '../assets/Specialities/Pediatricians.svg'
+import Dermatologist from '../Specialities/Dermatologist.svg'
+import Gastroenterologist from '../Specialities/Gastroenterologist.svg'
+import General_physician from '../Specialities/General_physician.svg'
+import Gynecologist from '../Specialities/Gynecologist.svg'
+import Neurologist from '../Specialities/Neurologist.svg'
+import Pediatricians from '../Specialities/Pediatricians.svg'
 
 export const SpecialitiesMenu = [
   {

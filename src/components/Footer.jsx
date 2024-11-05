@@ -24,7 +24,7 @@ const Footer = () => {
         </ul>
       </div>
     </div>
-    <div className="border-2 border-dashed w-full text-center py-3 border-x-0 border-">
+    <div className="border-2 border-dashed w-full text-center py-3 border-x-0 border-b-0">
       <p>Copyright © 2024 <a href="https://ibrahimhamdy.net/">IbrahimHamdy</a> - All Right Reserved.</p>
     </div>
   </div>;

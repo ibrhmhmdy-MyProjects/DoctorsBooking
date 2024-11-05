@@ -4,11 +4,11 @@ import { useState } from "react";
 
 const Navbar = () => {
   const navigate = useNavigate();
-  const [showMenu,setShowMenu] = useState(false);
+  // const [showMenu,setShowMenu] = useState(false);
   const [token,setToken] = useState(true);
   return (
-    <div className="flex justify-between items-center mb-5 py-4 text-sm border-b border-b-gray-400">
-      <img src={assets.logo} alt="" className="w-44 cursor-pointer"/>
+    <div className="flex justify-between items-center mb-5 py-4 text-sm border-b border-b-gray-200">
+      <img onClick={()=>{navigate('/')}} src={assets.logo} alt="" className="w-44 cursor-pointer"/>
       <ul className="hidden md:flex items-center gap-5 font-medium">
         <NavLink to='/'>
           <li className="py-1">Home</li>
@@ -32,7 +32,6 @@ const Navbar = () => {
           token 
           ? <div className="flex items-center gap-2 cursor-pointer group relative">
             <img src={assets.profile_pic} alt="" className="w-8 rounded-full" />
-            {/* <img src={assets.dropdown_icon} alt="" className="w-2.5"/> */}
             <div className="absolute top-0 right-0 pt-14 text-base font-medium text-gray-600 z-20 hidden group-hover:block">
               <div className="flex flex-col rounded gap-4 p-4 min-w-48 bg-stone-100">
                 <p onClick={()=>navigate('/my-profile')} className="hover:text-black cursor-pointer">My Profile</p>
